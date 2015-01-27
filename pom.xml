@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>firebase</artifactId>
-    <version>2.0.4</version>
+    <version>2.0.5-SNAPSHOT</version>
     <name>Firebase</name>
     <description>WebJar for Firebase</description>
     <url>http://webjars.org</url>
@@ -50,7 +50,7 @@
         <url>http://github.com/webjars/firebase</url>
         <connection>scm:git:https://github.com/webjars/firebase.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/firebase.git</developerConnection>
-        <tag>firebase-2.0.4</tag>
+        <tag>HEAD</tag>
     </scm>
     
     <build>
