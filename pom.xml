@@ -11,15 +11,15 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>firebase</artifactId>
-    <version>2.2.2-SNAPSHOT</version>
+    <version>3.1.0</version>
     <name>Firebase</name>
     <description>WebJar for Firebase</description>
     <url>http://webjars.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.version>2.2.1</upstream.version>
-        <upstream.url>https://cdn.firebase.com/js/client/${upstream.version}</upstream.url>
+        <upstream.version>3.1.0</upstream.version>
+        <upstream.url>https://www.gstatic.com/firebasejs/${upstream.version}</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</destDir>
         <requirejs>
             {
@@ -36,12 +36,17 @@
             <name>James Ward</name>
             <email>james@jamesward.com</email>
         </developer>
+        <developer>
+            <id>FrankFischer</id>
+            <name>Frank Fischer</name>
+            <email>frank@jcpsim.org</email>
+        </developer>
     </developers>
 
     <licenses>
         <license>
             <name>Commercial</name>
-            <url>https://www.firebase.com/pricing.html</url>
+            <url>https://developers.google.com/terms</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
